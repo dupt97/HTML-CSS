@@ -29,7 +29,7 @@ header {
 .main-nav {
   float: right;
   list-style: none;
-  margin-right: 245px;
+  margin-right: 14%;
   margin-top: 35px;
 }
 
@@ -65,13 +65,14 @@ header {
   display: block; 
   margin-left: auto; 
   margin-right: auto;
-  padding-bottom: 7%;
+  padding-bottom: 10%;
 }
 
 .heading-box .text-intro {
   font-size: 15px;
   font-family: 'Roboto', sans-serif;
-  padding-bottom: 7%;
+  padding-bottom: 10%;
+  margin-top: 3%;
   color: #283238;
 }
 
@@ -98,7 +99,7 @@ header {
 }
 
 .middle {
-  padding: 0 180px;
+  padding: 0 200px;
 }
 
 /* ----------------------------------------------------------------- */
@@ -109,7 +110,7 @@ header {
 
 /* General Custom */
 .general {
-  padding: 50px 15%;
+  padding: 8% 15%;
 }
 
 .general .row-flex {
@@ -124,28 +125,32 @@ header {
   height: 327px;
 }
 
+.row-flex .img-col img {
+  min-height: 337px;
+}
+
 .text-col .title i {
   font-size: 23px;
 }
 
 .text-col .title span {
   font-size: 35px;
-  font-family: Roboto-Light;
+  font-family: 'Roboto', sans-serif;
   color: #444444;
   margin-left: 15px;
   letter-spacing: 2px;
 }
 
 .row-flex .text-col .quote-text {
-  font-size: 13px;
-  margin-top: 15px;
+  font-size: 12px;
+  margin-top: 4%;
 }
 
 .row-flex .text-col .content-text {
   font-size: 12px;
   text-align: justify;
   line-height: 20px;
-  margin-top: 15px;
+  margin-top: 4%;
 }
 
 .main-btn {
@@ -161,10 +166,6 @@ header {
 /* Today Section */
 .today .general {
   box-shadow: 3px 3px 15px #D7DBDD;
-}
-
-.today .text-col .content-text {
-  margin-bottom: 50px;
 }
 
 /* Daily Section */
@@ -249,6 +250,12 @@ header {
 
 .member .text-col .content-text {
   margin-top: 30px;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+}
+
+.member .content-text .mem-midle {
+  margin:4% 0;
 }
 
 /* Customer */
@@ -262,6 +269,12 @@ header {
 
 .customer .text-col .content-text {
   margin-top: 30px;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+}
+
+.customer .content-text .mem-midle {
+  margin: 3.5% 0;
 }
 
 /* Our Customer */
@@ -269,18 +282,22 @@ header {
   background-image: url('../assets/images/rectangle3.png');
 }
 
+.our-customer .general {
+  padding: 3% 15%;
+}
+
 .our-customer .general .tiltle-our-customer {
   text-align: center;
-  color: white;
-  font-family: Roboto-Light;
-  font-size: 30px;
+  color: #ffffff;
+  font-family: "Roboto-Light";
+  font-size: 40px;
 }
 
 .our-customer .general .avatar-slide {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 5%;
 }
 
 .our-customer .avatar-slide .avatar-customer {
@@ -290,11 +307,11 @@ header {
 }
 
 .our-customer .avatar-customer img {
-  width: 65%;
+  width: 73%;
 }
 
 .our-customer .third-component img {
-  width: 80%;
+  width: 90%;
 }
 
 .our-customer .avatar-slide .third-component {
@@ -304,8 +321,12 @@ header {
 .our-customer .avatar-customer .avatar-content {
   color: #d0d8dc;
   font-family: Roboto-Regular;
-  font-size: 10px;
+  font-size: 12px;
   margin-top: 5px;
+}
+
+.avatar-customer .avatar-content .user-department {
+  font-size: 11px;
 }
 
 .our-customer .general .general-child {
@@ -314,9 +335,13 @@ header {
   text-align: center;
 }
 
+.our-customer .dot-slide {
+  margin-top: 15px;
+}
+
 .our-customer .dot-slide .dot-light {
-  height: 6px;
-  width: 6px;
+  height: 8px;
+  width: 8px;
   background-color: #ffffff;
   border-radius: 50%;
   display: inline-block;
@@ -324,8 +349,8 @@ header {
 }
 
 .our-customer .dot-slide .dot {
-  height: 6px;
-  width: 6px;
+  height: 8px;
+  width: 8px;
   border-radius: 50%;
   border: 1px solid #ffffff;
   display: inline-block;
@@ -335,8 +360,9 @@ header {
 .our-customer .quote-box-container p {
   padding: 0 140px;
   text-align: justify;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Roboto-Light';
+  line-height: 25px;
   margin-top: 35px;
   color: #d0d8dc;
 }
@@ -362,26 +388,30 @@ footer {
   background-color: #39474e;
 }
 
+footer .general {
+  padding: 3.5% 15%;
+}
+
 footer .logo-footer p{
   background: linear-gradient(to right, #8bc34a 0%, #b4ec51 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  font-size: 25px;
   font-family: Enso;
   font-weight: bold;
 }
 
 footer .footer-intro .copyright-footer {
   color: white;
-  margin-top: 69px;
-  font-size: 12px;
+  margin-top: 46px;
+  font-size: 11.5px;
 }
 
 footer .link-footer .title-footer {
   text-transform: uppercase;
   color: #8bc34a;
   font-family: Roboto-Medium;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 10%;
   word-spacing: 3px;
 }
@@ -390,12 +420,12 @@ footer .select-footer ul {
   list-style-type: none;
   color: white;
   line-height: 20px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 footer .select-footer li {
-  line-height: 30px;
-  font-size: 12px;
+  line-height: 23px;
+  font-size: 11.5px;
 }
 
 footer .row-flex .footer-icon {
@@ -403,7 +433,7 @@ footer .row-flex .footer-icon {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 92px;
+  padding-top: 72px;
   font-size: 12px;
   color: #8bc34a;
 }

@@ -122,11 +122,12 @@ header {
 .row-flex .img-col img,
 .text-col {
   max-width: 430px;
-  height: 327px;
+  height: 357px;
+  margin-bottom: 0;
 }
 
 .row-flex .img-col img {
-  min-height: 337px;
+  min-height: 355px;
 }
 
 .text-col .title i {
@@ -142,12 +143,12 @@ header {
 }
 
 .row-flex .text-col .quote-text {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 4%;
 }
 
 .row-flex .text-col .content-text {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
   line-height: 20px;
   margin-top: 4%;
